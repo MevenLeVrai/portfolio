@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e570521f-6ee4-4930-ab3f-fbf040e71939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/meven-portfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resume-meven-desbois.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/og-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/more/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DownLoadResumeBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DownLoadResumeBtn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroTexts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroTexts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectsCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectsCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SendEmail.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SendEmail.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/animation/GithubBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/GithubBtn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/portfolio.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/portfolio.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +82,8 @@
       <workItem from="1773487227025" duration="4642000" />
       <workItem from="1773492545647" duration="13661000" />
       <workItem from="1773680032012" duration="10167000" />
-      <workItem from="1773736206300" duration="1144000" />
+      <workItem from="1773736206300" duration="1643000" />
+      <workItem from="1773742924138" duration="1523000" />
     </task>
     <servers />
   </component>
