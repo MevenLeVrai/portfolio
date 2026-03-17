@@ -6,12 +6,16 @@ import { buttonVariants } from './ui/button'
 import HackerBtn from './animation/HackerBtn'
 
 function DownLoadResumeBtn() {
-  return (
-    <div className="h-fit w-full mt-2 py-2 px-4">
-  
-    <HackerBtn label='Download Resume' />
-  </div>
-  )
+    return (
+        <div className="h-fit w-full mt-2 py-2 px-4">
+            <a
+                href="/resume-meven-desbois.pdf"
+                download="Meven_Desbois_Resume.pdf"
+            >
+                <HackerBtn label="Download Resume" />
+            </a>
+        </div>
+    )
 }
 
 export default DownLoadResumeBtn

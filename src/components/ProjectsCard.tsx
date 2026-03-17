@@ -65,24 +65,25 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
             })}
           </div>
         </CardContent>
-
-        <CardFooter className="pt-2 ">
-          <Link
-            href={value.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={cn(
-              buttonVariants({ 
-                variant: "default", 
-                size: "sm" 
-              }),
-              "w-fit transition-all hover:translate-y-[-2px] hover:shadow-md group"
-            )}
-          >
-            Visit Project 
-            <ArrowUpRight className="h-4 w-4 ml-1 hidden group-hover:block -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
-          </Link>
-        </CardFooter>
+          <CardFooter className="pt-2 ">
+              {value.link && (
+                  <Link
+                      href={value.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={cn(
+                          buttonVariants({
+                              variant: "default",
+                              size: "sm"
+                          }),
+                          "w-fit transition-all hover:translate-y-[-2px] hover:shadow-md group"
+                      )}
+                  >
+                      Visit Project
+                      <ArrowUpRight className="h-4 w-4 ml-1 hidden group-hover:block -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
+                  </Link>
+              )}
+          </CardFooter>
       </Card>
     </FramerWrapper>
   );
