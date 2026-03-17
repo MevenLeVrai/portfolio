@@ -75,7 +75,6 @@ export const portfolioConfig = {
     },
 
 
-    // Skills and Roles
     skills: {
         roles: [
             "Student",
@@ -85,98 +84,76 @@ export const portfolioConfig = {
             "CTF Player",
             "Automation Fan",
         ],
-        // Technical Skills
+
+        // Langages de programmation
         programmingLanguages: [
-            {
-                name: "HTML5",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            },
-            {
-                name: "CSS3",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            },
-            {
-                name: "JavaScript",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-            },
-            {
-                name: "TypeScript",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-            },
-            {
-                name: "C++",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-            },
-            {
-                name: "Python",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-            },
-            {
-                name: "Java",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-            },
+            { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+            { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+            { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+            { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+            { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
         ],
-        frameworks: [
-            {
-                name: "React",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-            },
-            {
-                name: "Next.js",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-            },
-            {
-                name: "Vue.js",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-            },
-            {
-                name: "Svelte",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-            },
-            {
-                name: "Tailwind CSS",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-            },
-            {
-                name: "Bootstrap",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-            },
-            {
-                name: "Material UI",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-            },
+
+        // Scripting & Automatisation
+        scripting: [
+            { name: "Bash", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
+            { name: "PowerShell", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" },
         ],
-        tools: [
-            {
-                name: "Git",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-            },
-            {
-                name: "GitHub",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-            },
-            {
-                name: "VS Code",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-            },
-            {
-                name: "Docker",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-            },
-            {
-                name: "Firebase",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-            },
-            {
-                name: "MongoDB",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-            },
-            {
-                name: "PostgreSQL",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-            },
+
+        // DevOps & Cloud
+        devops: [
+            { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+            { name: "GitHub Actions", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+            { name: "Azure DevOps", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+            { name: "Azure", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+            { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+            { name: "Nginx", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" },
+        ],
+
+        // Systèmes & Virtualisation
+        sysadmin: [
+            { name: "Linux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
+            { name: "Windows", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" },
+            { name: "VMware", icon: "https://www.svgrepo.com/show/473827/vmware.svg" },
+            { name: "VirtualBox", icon: "https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg" },
+            { name: "SSH", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" },
+            { name: "PfSense", icon: "https://cdn.simpleicons.org/pfsense" },
+        ],
+
+        // Monitoring & ITSM
+        monitoring: [
+            { name: "Prometheus", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" },
+            { name: "Grafana", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" },
+            { name: "Loki", icon: "https://cdn.simpleicons.org/grafana" },
+            { name: "Wazuh", icon: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/wazuh.svg" },
+            { name: "GLPI", icon: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/glpi.svg" },
+        ],
+
+        // Cybersécurité & Pentest
+        cybersecurity: [
+            { name: "Wireshark", icon: "https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" },
+            { name: "Nmap", icon: "https://nmap.org/images/sitelogo-nmap.svg" },
+            { name: "Burp Suite", icon: "https://cdn.simpleicons.org/burpsuite" },
+            { name: "Metasploit", icon: "https://cdn.simpleicons.org/metasploit" },
+            { name: "Hydra", icon: "https://www.kali.org/tools/hydra/images/hydra-logo.svg" },
+            { name: "Feroxbuster", icon: "https://www.kali.org/tools/feroxbuster/images/feroxbuster-logo.svg" },
+            { name: "John the Ripper", icon: "https://www.kali.org/tools/john/images/john-logo.svg" },
+        ],
+
+        // CTF & Entraînement
+        ctf: [
+            { name: "HackTheBox", icon: "https://cdn.simpleicons.org/hackthebox/9FEF00" },
+            { name: "TryHackMe", icon: "https://tryhackme.com/img/favicon.png" },
+            { name: "HackMyVM", icon: "https://cdn.simpleicons.org/virtualbox/183A61" },
+        ],
+
+        // Productivité
+        productivity: [
+            { name: "Obsidian", icon: "https://obsidian.md/images/obsidian-logo-gradient.svg" },
         ],
     },
+
+
 
     // Education Information
     education: [

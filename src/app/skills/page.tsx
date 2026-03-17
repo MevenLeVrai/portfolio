@@ -33,18 +33,58 @@ const skillPage = () => {
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.32}>
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Framework/Libraries
+              Scripting
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
-            <SkillsFooter items={portfolioConfig.skills.frameworks} />
+            <SkillsFooter items={portfolioConfig.skills.scripting} />
           </div>
         </FramerWrapper>
         <FramerWrapper className="block w-full" y={100} delay={0.34}>
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Tools & Technologies
+            Devops & Cloud
           </h1>
           <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
-            <SkillsFooter items={portfolioConfig.skills.tools} />
+            <SkillsFooter items={portfolioConfig.skills.devops} />
+          </div>
+        </FramerWrapper>
+          <FramerWrapper className="block w-full" y={100} delay={0.34}>
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+              Systems & Virtualization
+          </h1>
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+            <SkillsFooter items={portfolioConfig.skills.sysadmin} />
+          </div>
+        </FramerWrapper>
+          <FramerWrapper className="block w-full" y={100} delay={0.34}>
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+              Monitoring
+          </h1>
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+            <SkillsFooter items={portfolioConfig.skills.monitoring} />
+          </div>
+        </FramerWrapper>
+          <FramerWrapper className="block w-full" y={100} delay={0.34}>
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+              Cybersecurity & Pentest
+          </h1>
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+            <SkillsFooter items={portfolioConfig.skills.cybersecurity} />
+          </div>
+        </FramerWrapper>
+          <FramerWrapper className="block w-full" y={100} delay={0.34}>
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+              CTF
+          </h1>
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+            <SkillsFooter items={portfolioConfig.skills.ctf} />
+          </div>
+        </FramerWrapper>
+          <FramerWrapper className="block w-full" y={100} delay={0.34}>
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+              Productivity & Writup
+          </h1>
+          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
+            <SkillsFooter items={portfolioConfig.skills.productivity} />
           </div>
         </FramerWrapper>
       </div>
