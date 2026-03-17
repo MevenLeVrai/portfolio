@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { User2 } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
 import AboutCards from "@/components/ui/AboutCards";
+import {ApprenticeshipBadge} from "@/components/ui/ApprenticeshipBadge";
 
 const page = () => {
     return (
@@ -23,6 +24,7 @@ const page = () => {
                     <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
                         {portfolioConfig.about.bio}
                     </p>
+                    <ApprenticeshipBadge />
                 </FramerWrapper>
             </div>
                 <AboutCards />

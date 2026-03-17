@@ -4,6 +4,7 @@ import HeroImage from "@/components/HeroImage";
 import GithubBtn from "@/components/animation/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
+import {ApprenticeshipBadge} from "@/components/ui/ApprenticeshipBadge";
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       >
         {/* IMAGE  */}
         <HeroImage />
+          <ApprenticeshipBadge />
       </FramerWrapper>
 
       {/* GITHUB BUTTON  */}

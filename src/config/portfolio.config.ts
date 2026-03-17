@@ -72,18 +72,26 @@ export const portfolioConfig = {
             nationality: "French",
             gender: "Male",
         },
+
+    },
+
+    apprenticeship: {
+        enabled: true,
+        text: "Currently looking for a one-year apprenticeship in system administration, DevOps or cybersecurity starting in May 2026, in Paris or Nantes."
     },
 
 
     skills: {
         roles: [
-            "Student",
-            "Sysadmin",
-            "Cybersecurity Enthusiast",
-            "DevOps Learner",
             "CTF Player",
-            "Automation Fan",
+            "Powerlifter",
+            "Junior Sysadmin",
+            "Traveller",
+            "Network & Cloud Enthusiast",
+            "Security Explorer",
         ],
+
+
 
         // Langages de programmation / Scripting
         programmingLanguages: [
@@ -178,6 +186,21 @@ export const portfolioConfig = {
     // Projects Information
     projects: [
         {
+            title: "Azure PHP App – CI/CD, Containers & MySQL",
+            description:
+                "Hands-on lab where I deployed a simple PHP/MySQL web application on Azure using a full cloud-native pipeline. I set up a bastion VM, containerized the app with Docker, built and pushed images to Azure Container Registry, configured an Azure DevOps pipeline with a self-hosted agent, and deployed the container to Azure Container Apps with a managed MySQL database. The goal was to automate the build and deployment process end-to-end and document the infrastructure.",
+            tags: [
+                "Azure",
+                "Azure DevOps",
+                "Docker",
+                "Container Apps",
+                "MySQL",
+                "CI/CD",
+            ],
+            link: "",
+            status: "new", // "new" | "in progress" | undefined
+        },
+        {
             title: "Network Infrastructure – TacTic Brother BUILD",
             description:
                 "Design and deployment of a full enterprise network infrastructure from scratch. We virtualized an OPNsense firewall and router on VMware, configured DHCP, VLANs and firewall rules to segment and secure the network. I also configured a legacy HP ProCurve 2810 switch via Telnet, applying port-based VLAN assignments and access rules. The goal was to deliver a production-ready, segmented and documented network before handing it off to the RUN team.",
@@ -192,6 +215,7 @@ export const portfolioConfig = {
                 "Networking",
             ],
             link: "",
+
         },
         {
             title: "Network Supervision & Operations – TacTic Brother RUN",
@@ -223,6 +247,7 @@ export const portfolioConfig = {
                 "Networking",
             ],
             link: "https://github.com/BaptouK/PokeRixe",
+            status: "in progress"
         },
         {
             title: "CTF & Security Labs",
@@ -230,6 +255,7 @@ export const portfolioConfig = {
                 "Regularly solving CTF challenges and security labs focused on web exploitation, reverse engineering and basic crypto. I document each challenge in a private Obsidian knowledge base with methodology, tooling and remediation, and use these notes to improve my attack paths and detection mindset.",
             tags: ["CTF", "HackTheBox", "TryHackMe", "Web Exploitation", "Reverse Engineering"],
             link: "",
+            status: "in progress"
         },
 
         {
@@ -245,20 +271,6 @@ export const portfolioConfig = {
                 "Cybersecurity",
             ],
             link: "", // à remplir but mettre le code sur Github.
-        },
-        {
-            title: "Azure PHP App – CI/CD, Containers & MySQL",
-            description:
-                "Hands-on lab where I deployed a simple PHP/MySQL web application on Azure using a full cloud-native pipeline. I set up a bastion VM, containerized the app with Docker, built and pushed images to Azure Container Registry, configured an Azure DevOps pipeline with a self-hosted agent, and deployed the container to Azure Container Apps with a managed MySQL database. The goal was to automate the build and deployment process end-to-end and document the infrastructure.",
-            tags: [
-                "Azure",
-                "Azure DevOps",
-                "Docker",
-                "Container Apps",
-                "MySQL",
-                "CI/CD",
-            ],
-            link: "",
         },
         {
             title: "Self‑Hosted Git Forge – Forgejo on Debian",

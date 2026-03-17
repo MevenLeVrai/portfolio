@@ -76,7 +76,6 @@
     @apply bg-background text-foreground;
   }
 }
-
 /* CUSTOM CSS  */
 .name_underline::after{
   content: "";

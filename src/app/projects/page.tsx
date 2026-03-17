@@ -17,11 +17,7 @@ const projectsPage = () => {
         <Heading>My Projects</Heading>
         <FramerWrapper y={0} x={200}>
           <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
-            I love to Build Cool Projects. Here, you&#x27;ll find a curated
-            collection of my creative endeavors and technical projects. Each
-            piece represents a journey of innovation, problem-solving, and
-            continuous learning. Feel free to explore this showcase of my
-            passion and expertise in action.
+              I like to turn ideas into real, running systems. On this page, you’ll find a selection of labs and projects where I’ve worked on networking, system administration, automation and security. Each project is an opportunity for me to experiment, break things, fix them, and document what I’ve learned along the way.
           </p>
         </FramerWrapper>
       </div>

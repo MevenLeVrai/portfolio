@@ -1,12 +1,18 @@
-// components/AboutCards.tsx
+"use client";
+import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Circle, Globe, Heart, Languages, UserCircle2 } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
-import FramerWrapper from "@/components/animation/FramerWrapper";
 
 const AboutCards = () => {
     return (
-        <FramerWrapper className="w-full grid grid-cols-3 gap-4 max-lg:grid-cols-1" y={100} delay={0.3}>
+        <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.20 }}
+            style={{ overflow: "visible" }}
+            className="w-full grid grid-cols-3 gap-4 max-lg:grid-cols-1 pb-2"
+        >
             {/* Language */}
             <Card className="w-full h-full flex flex-col hover:shadow-lg transition-all duration-300 border-2">
                 <CardHeader className="pb-2">
@@ -52,8 +58,11 @@ const AboutCards = () => {
             </Card>
 
             {/* Hobbies */}
-            <Card className="col-span-3 max-lg:col-span-1 w-full hover:shadow-lg transition-all duration-300 border-2">
-            <CardHeader className="pb-2">
+            <Card
+                style={{ gridColumn: "1 / -1" }}
+                className="w-full hover:shadow-lg transition-all duration-300 border-2"
+            >
+                <CardHeader className="pb-2">
                     <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
                         <Heart className="h-6 w-6" /> Hobbies
                     </CardTitle>
@@ -69,7 +78,7 @@ const AboutCards = () => {
                 </CardContent>
             </Card>
 
-        </FramerWrapper>
+        </motion.div>
     );
 };
 
