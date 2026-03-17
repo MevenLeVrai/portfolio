@@ -1,29 +1,6 @@
-export type ProjectStatus = "new" | "in progress";
 
-export interface Project {
-    title: string;
-    description: string;
-    tags: string[];
-    link: string;
-    status?: ProjectStatus;
-}
 
-interface PortfolioConfig {
-    name: string;
-    title: string;
-    description: string;
-    location: string;
-    email: string;
-    socialLinks: any;
-    seo: any;
-    about: any;
-    apprenticeship: any;
-    skills: any;
-    education: any;
-    projects: Project[];
-}
-
-export const portfolioConfig: PortfolioConfig = {
+export const portfolioConfig = {
     name: "Meven DESBOIS",
     title: "Student B2 Systems, Networks, Cloud & Cybersecurity",
     description: "Passionate about CTF, DevOps and cybersecurity.",

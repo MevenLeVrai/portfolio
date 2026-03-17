@@ -16,7 +16,7 @@ const educationPage = () => {
         <Heading>My Education</Heading>
       </div>
       <div className="w-full h-fit flex flex-col">
-        {portfolioConfig.education.map((edu, index) => (
+        {portfolioConfig.education.map((edu : any, index:any) => (
           <div className="w-full h-fit flex" key={index}>
             <FramerWrapper
               y={0}

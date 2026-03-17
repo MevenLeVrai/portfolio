@@ -17,7 +17,7 @@ interface ProjectCardProps {
         description: string;
         tags: string[];
         link: string;
-        status?: "new" | "in progress";
+        status?: string;
     };
     num: number;
 }
