@@ -85,20 +85,17 @@ export const portfolioConfig = {
             "Automation Fan",
         ],
 
-        // Langages de programmation
+        // Langages de programmation / Scripting
         programmingLanguages: [
             { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
             { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
             { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
             { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
             { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
-        ],
-
-        // Scripting & Automatisation
-        scripting: [
             { name: "Bash", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
             { name: "PowerShell", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" },
         ],
+
 
         // DevOps & Cloud
         devops: [
@@ -150,6 +147,8 @@ export const portfolioConfig = {
         // Productivité
         productivity: [
             { name: "Obsidian", icon: "https://obsidian.md/images/obsidian-logo-gradient.svg" },
+            { name: "Notion", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" },
+            { name: "Microsoft Office", icon: "https://img.icons8.com/color/48/microsoft-office-2019.png" },
         ],
     },
 
