@@ -68,7 +68,7 @@ export const portfolioConfig = {
             "Gaming and hardware tinkering",
         ],
         personalInfo: {
-            language: "French, English",
+            language: ["French", "English"],
             nationality: "French",
             gender: "Male",
         },
