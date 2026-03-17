@@ -178,9 +178,25 @@ export const portfolioConfig = {
     // Projects Information
     projects: [
         {
+            title: "Network Infrastructure – TacTic Brother BUILD",
+            description:
+                "Design and deployment of a full enterprise network infrastructure from scratch. We virtualized an OPNsense firewall and router on VMware, configured DHCP, VLANs and firewall rules to segment and secure the network. I also configured a legacy HP ProCurve 2810 switch via Telnet, applying port-based VLAN assignments and access rules. The goal was to deliver a production-ready, segmented and documented network before handing it off to the RUN team.",
+            tags: [
+                "OPNsense",
+                "VMware",
+                "Firewall",
+                "VLAN",
+                "DHCP",
+                "HP ProCurve",
+                "Telnet",
+                "Networking",
+            ],
+            link: "",
+        },
+        {
             title: "Network Supervision & Operations – TacTic Brother RUN",
             description:
-                "Follow‑up of the TacTic Brother enterprise network project, focused on operations and monitoring. We designed and deployed a full RUN stack: Grafana + Prometheus for NOC dashboards, Loki for firewall log centralization, GLPI for ITSM (assets, incidents and changes) and Wazuh as a SOC‑lite. I worked on turning network and security metrics into actionable dashboards, configuring alerting, and documenting runbooks so another team could operate and troubleshoot the infrastructure.",
+                "Follow-up of the TacTic Brother enterprise network project, focused on operations and monitoring. We designed and deployed a full RUN stack: Grafana + Prometheus for NOC dashboards, Loki for firewall log centralization, GLPI for ITSM (assets, incidents and changes) and Wazuh as a SOC-lite. I worked on turning network and security metrics into actionable dashboards, configuring alerting, and documenting runbooks so another team could operate and troubleshoot the infrastructure.",
             tags: [
                 "Grafana",
                 "Prometheus",
@@ -206,7 +222,7 @@ export const portfolioConfig = {
                 "CI/CD",
                 "Networking",
             ],
-            link: "https://pokerixe.baptouk.live/pokedex",
+            link: "https://github.com/BaptouK/PokeRixe",
         },
         {
             title: "CTF & Security Labs",
@@ -258,7 +274,5 @@ export const portfolioConfig = {
             ],
             link: "",
         },
-
-
     ],
 };

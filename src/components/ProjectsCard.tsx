@@ -40,21 +40,77 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
           
           <div className="flex flex-wrap gap-2">
             {value.tags.map((tag: string, index: number) => {
-              const tagStyles = {
-                'Nextjs': 'bg-teal-100 text-teal-800',
-                'Freelancing': 'bg-yellow-100 text-yellow-800',
-                'Shadcn Ui': 'bg-blue-100 text-blue-800',
-                'Typescript': 'bg-red-100 text-red-800',
-                'MySQL': 'bg-orange-100 text-orange-800',
-                'Zustand': 'bg-purple-100 text-purple-800',
-                'Supabase': 'bg-emerald-100 text-emerald-800',
-                'Npx': 'bg-indigo-100 text-indigo-800',
-                'Library': 'bg-pink-100 text-pink-800',
-                'Zod': 'bg-cyan-100 text-cyan-800',
-                'React Hook Form': 'bg-violet-100 text-violet-800'
-              }[tag] || 'bg-gray-100 text-gray-800';
+                const tagStyles = {
+                    // Langages → rouge
+                    'Java': 'bg-red-100 text-red-800',
+                    'C/C++': 'bg-red-100 text-red-800',
 
-              return (
+                    // Web & Frameworks → violet
+                    'Java Spring': 'bg-violet-100 text-violet-800',
+                    'Angular': 'bg-violet-100 text-violet-800',
+
+                    // Base de données → orange
+                    'MySQL': 'bg-orange-100 text-orange-800',
+                    'MongoDB': 'bg-orange-100 text-orange-800',
+                    'Redis': 'bg-orange-100 text-orange-800',
+
+                    // DevOps & CI/CD → indigo
+                    'GitHub Actions': 'bg-indigo-100 text-indigo-800',
+                    'CI/CD': 'bg-indigo-100 text-indigo-800',
+                    'Docker': 'bg-indigo-100 text-indigo-800',
+                    'DevOps': 'bg-indigo-100 text-indigo-800',
+                    'Self‑Hosted': 'bg-indigo-100 text-indigo-800',
+
+                    // Cloud & Azure → sky
+                    'Azure': 'bg-sky-100 text-sky-800',
+                    'Azure DevOps': 'bg-sky-100 text-sky-800',
+                    'Container Apps': 'bg-sky-100 text-sky-800',
+
+                    // Réseau & Infrastructure → teal
+                    'Networking': 'bg-teal-100 text-teal-800',
+                    'OPNsense': 'bg-teal-100 text-teal-800',
+                    'VMware': 'bg-teal-100 text-teal-800',
+                    'Firewall': 'bg-teal-100 text-teal-800',
+                    'VLAN': 'bg-teal-100 text-teal-800',
+                    'DHCP': 'bg-teal-100 text-teal-800',
+                    'HP ProCurve': 'bg-teal-100 text-teal-800',
+                    'Telnet': 'bg-teal-100 text-teal-800',
+                    'PfSense': 'bg-teal-100 text-teal-800',
+
+                    // Monitoring → yellow
+                    'Grafana': 'bg-yellow-100 text-yellow-800',
+                    'Prometheus': 'bg-yellow-100 text-yellow-800',
+                    'Loki': 'bg-yellow-100 text-yellow-800',
+                    'Monitoring': 'bg-yellow-100 text-yellow-800',
+
+                    // Sécurité & SOC → rose
+                    'Wazuh': 'bg-rose-100 text-rose-800',
+                    'GLPI': 'bg-rose-100 text-rose-800',
+                    'ITSM': 'bg-rose-100 text-rose-800',
+                    'SOC-lite': 'bg-rose-100 text-rose-800',
+                    'Cybersecurity': 'bg-rose-100 text-rose-800',
+
+                    // CTF & Pentest → green
+                    'CTF': 'bg-green-100 text-green-800',
+                    'HackTheBox': 'bg-green-100 text-green-800',
+                    'TryHackMe': 'bg-green-100 text-green-800',
+                    'Web Exploitation': 'bg-green-100 text-green-800',
+                    'Reverse Engineering': 'bg-green-100 text-green-800',
+
+                    // Embedded & Hardware → amber
+                    'ESP32': 'bg-amber-100 text-amber-800',
+                    'Wi‑Fi': 'bg-amber-100 text-amber-800',
+                    'Packet Sniffing': 'bg-amber-100 text-amber-800',
+                    'Embedded': 'bg-amber-100 text-amber-800',
+
+                    // Outils → slate
+                    'Git': 'bg-slate-100 text-slate-800',
+                    'Forgejo': 'bg-slate-100 text-slate-800',
+                    'Debian': 'bg-slate-100 text-slate-800',
+                } [tag] || 'bg-gray-100 text-gray-800';
+
+
+                return (
                 <span 
                   key={index}
                   className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${tagStyles}`}
