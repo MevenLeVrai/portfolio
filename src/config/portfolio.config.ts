@@ -7,10 +7,8 @@ export const portfolioConfig = {
     email: "meven.desbois@icloud.com",
 
     socialLinks: {
-        facebook: "",
-        twitter: "",
+
         linkedin: "https://www.linkedin.com/in/mevendesbois",
-        external: "",
         github: "https://github.com/MevenLeVrai",
     },
 
