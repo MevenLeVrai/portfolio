@@ -61,7 +61,7 @@ const Navbar = () => {
         },
 
         {
-            title: 'Contact us',
+            title: 'Contact me',
             icon: (
                 <Mail className='h-full w-full '/>
             ),
