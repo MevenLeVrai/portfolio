@@ -1,5 +1,3 @@
-
-
 export const portfolioConfig = {
     name: "Meven DESBOIS",
     title: "Student B2 Systems, Networks, Cloud & Cybersecurity",
@@ -91,6 +89,9 @@ export const portfolioConfig = {
             "Traveller",
             "Network & Cloud Enthusiast",
             "Security Explorer",
+        ],
+        intro: [
+          "I’m currently building strong expertise in system administration, DevOps, and cybersecurity. My skills cover areas such as development, automation, cloud technologies, and IT monitoring. I enjoy working with modern tools and environments like Linux, Docker, Azure, and VMware to design secure, efficient, and scalable infrastructures."
         ],
 
 
