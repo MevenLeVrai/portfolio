@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { portfolioConfig } from "@/config/portfolio.config";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const poppins = Poppins({
@@ -72,6 +73,7 @@ export default function RootLayout({
           {children}
         </main>
         <Analytics />
+        <SpeedInsights/>
       </body>
     </html>
   );
