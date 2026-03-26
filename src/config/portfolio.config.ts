@@ -91,78 +91,94 @@ export const portfolioConfig = {
             "Security Explorer",
         ],
         intro: [
-          "I’m currently building strong expertise in system administration, DevOps, and cybersecurity. My skills cover areas such as development, automation, cloud technologies, and IT monitoring. I enjoy working with modern tools and environments like Linux, Docker, Azure, and VMware to design secure, efficient, and scalable infrastructures."
+            "I’m currently building strong expertise in system administration, DevOps, and cybersecurity. My skills cover areas such as development, automation, cloud technologies, and IT monitoring. I enjoy working with modern tools and environments like Linux, Docker, Azure, and VMware to design secure, efficient, and scalable infrastructures."
         ],
 
-
+        certification: [
+            {name: "CCNA1", icon: "ccna-introduction-to-networks.png"}
+        ],
 
         // Langages de programmation / Scripting
         programmingLanguages: [
-            { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-            { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-            { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-            { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-            { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
-            { name: "Bash", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
-            { name: "PowerShell", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" },
+            {name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"},
+            {name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"},
+            {
+                name: "JavaScript",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            },
+            {name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"},
+            {name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"},
+            {name: "Bash", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"},
+            {
+                name: "PowerShell",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg"
+            },
         ],
 
 
         // DevOps & Cloud
         devops: [
-            { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-            { name: "GitHub Actions", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-            { name: "Azure DevOps", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
-            { name: "Azure", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
-            { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-            { name: "Nginx", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" },
+            {name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"},
+            {
+                name: "GitHub Actions",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            },
+            {name: "Azure DevOps", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"},
+            {name: "Azure", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"},
+            {name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"},
+            {name: "Nginx", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"},
         ],
 
         // Systèmes & Virtualisation
         sysadmin: [
-            { name: "Linux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
-            { name: "Windows", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" },
-            { name: "VMware", icon: "https://www.svgrepo.com/show/473827/vmware.svg" },
-            { name: "VirtualBox", icon: "https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg" },
-            { name: "SSH", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" },
-            { name: "PfSense", icon: "https://cdn.simpleicons.org/pfsense" },
+            {name: "Linux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"},
+            {
+                name: "Windows",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
+            },
+            {name: "VMware", icon: "https://www.svgrepo.com/show/473827/vmware.svg"},
+            {name: "VirtualBox", icon: "https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg"},
+            {name: "SSH", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg"},
+            {name: "PfSense", icon: "https://cdn.simpleicons.org/pfsense"},
         ],
 
         // Monitoring & ITSM
         monitoring: [
-            { name: "Prometheus", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" },
-            { name: "Grafana", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" },
-            { name: "Loki", icon: "https://cdn.simpleicons.org/grafana" },
-            { name: "Wazuh", icon: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/wazuh.svg" },
-            { name: "GLPI", icon: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/glpi.svg" },
+            {
+                name: "Prometheus",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg"
+            },
+            {name: "Grafana", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg"},
+            {name: "Loki", icon: "https://cdn.simpleicons.org/grafana"},
+            {name: "Wazuh", icon: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/wazuh.svg"},
+            {name: "GLPI", icon: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/glpi.svg"},
         ],
 
         // Cybersécurité & Pentest
         cybersecurity: [
-            { name: "Wireshark", icon: "https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" },
-            { name: "Nmap", icon: "https://nmap.org/images/sitelogo-nmap.svg" },
-            { name: "Burp Suite", icon: "https://cdn.simpleicons.org/burpsuite" },
-            { name: "Metasploit", icon: "https://cdn.simpleicons.org/metasploit" },
-            { name: "Hydra", icon: "https://www.kali.org/tools/hydra/images/hydra-logo.svg" },
-            { name: "Feroxbuster", icon: "https://www.kali.org/tools/feroxbuster/images/feroxbuster-logo.svg" },
-            { name: "John the Ripper", icon: "https://www.kali.org/tools/john/images/john-logo.svg" },
+            {name: "Wireshark", icon: "https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg"},
+            {name: "Nmap", icon: "https://nmap.org/images/sitelogo-nmap.svg"},
+            {name: "Burp Suite", icon: "https://cdn.simpleicons.org/burpsuite"},
+            {name: "Metasploit", icon: "https://cdn.simpleicons.org/metasploit"},
+            {name: "Hydra", icon: "https://www.kali.org/tools/hydra/images/hydra-logo.svg"},
+            {name: "Feroxbuster", icon: "https://www.kali.org/tools/feroxbuster/images/feroxbuster-logo.svg"},
+            {name: "John the Ripper", icon: "https://www.kali.org/tools/john/images/john-logo.svg"},
         ],
 
         // CTF & Entraînement
         ctf: [
-            { name: "HackTheBox", icon: "https://cdn.simpleicons.org/hackthebox/9FEF00" },
-            { name: "TryHackMe", icon: "https://tryhackme.com/img/favicon.png" },
-            { name: "HackMyVM", icon: "https://cdn.simpleicons.org/virtualbox/183A61" },
+            {name: "HackTheBox", icon: "https://cdn.simpleicons.org/hackthebox/9FEF00"},
+            {name: "TryHackMe", icon: "https://tryhackme.com/img/favicon.png"},
+            {name: "HackMyVM", icon: "https://cdn.simpleicons.org/virtualbox/183A61"},
         ],
 
         // Productivité
         productivity: [
-            { name: "Obsidian", icon: "https://obsidian.md/images/obsidian-logo-gradient.svg" },
-            { name: "Notion", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" },
-            { name: "Microsoft Office", icon: "https://img.icons8.com/color/48/microsoft-office-2019.png" },
+            {name: "Obsidian", icon: "https://obsidian.md/images/obsidian-logo-gradient.svg"},
+            {name: "Notion", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg"},
+            {name: "Microsoft Office", icon: "https://img.icons8.com/color/48/microsoft-office-2019.png"},
         ],
     },
-
 
 
     // Education Information
@@ -188,6 +204,22 @@ export const portfolioConfig = {
 
     // Projects Information
     projects: [
+        {
+            title: "CCNA1 Certification Passage",
+            description:
+                "Successful completion of the Cisco CCNA 1 – Introduction to Networks module, covering foundational networking concepts (network architectures, protocols, IPv4/IPv6 addressing, Ethernet, switching) and basic configuration/troubleshooting of routers and switches under Cisco IOS.",
+            tags: [
+                "CCNA",
+                "Cisco",
+                "Networking",
+                "IPv4",
+                "IPv6",
+                "Routing",
+                "Switching",
+            ],
+            link: "https://www.credly.com/badges/7547886a-e643-4f05-9409-945fba2949a4/public_url",
+            status: "new"
+        },
         {
             title: "Azure PHP App – CI/CD, Containers & MySQL",
             description:

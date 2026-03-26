@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e570521f-6ee4-4930-ab3f-fbf040e71939" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/portfolioLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/skills/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/skills/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectsCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectsCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/portfolio.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/portfolio.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +49,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\portfolio\public" />
       <recent name="E:\portfolio\src\app" />
       <recent name="E:\portfolio\src\app\skills" />
-      <recent name="E:\portfolio\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm dev">
@@ -91,7 +92,8 @@
       <workItem from="1773832176032" duration="3148000" />
       <workItem from="1774009504952" duration="703000" />
       <workItem from="1774110011472" duration="941000" />
-      <workItem from="1774264691970" duration="1059000" />
+      <workItem from="1774264691970" duration="2484000" />
+      <workItem from="1774526666043" duration="1985000" />
     </task>
     <servers />
   </component>

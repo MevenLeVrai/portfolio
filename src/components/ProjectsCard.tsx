@@ -102,6 +102,12 @@ const ProjectCards: React.FC<ProjectCardProps> = ({value, num}) => {
                                 'Git': 'bg-slate-100 text-slate-800',
                                 'Forgejo': 'bg-slate-100 text-slate-800',
                                 'Debian': 'bg-slate-100 text-slate-800',
+                                'CCNA': 'bg-teal-100 text-teal-800',
+                                'Cisco': 'bg-teal-100 text-teal-800',
+                                'IPv4': 'bg-teal-100 text-teal-800',
+                                'IPv6': 'bg-teal-100 text-teal-800',
+                                'Routing': 'bg-teal-100 text-teal-800',
+                                'Switching': 'bg-teal-100 text-teal-800',
                             } [tag] || 'bg-gray-100 text-gray-800';
 
                             return (
