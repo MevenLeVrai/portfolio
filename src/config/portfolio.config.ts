@@ -205,6 +205,21 @@ export const portfolioConfig = {
     // Projects Information
     projects: [
         {
+            title: "COM Cyber CTF – Operation Bellatrix",
+            description:
+                "In March 2026, I participated in Operation Bellatrix, a national online Capture The Flag challenge organized by the French Cyber Defense Command (COMCYBER) as part of the “Orion” Jeunesse 2026 exercise. I finished 196th out of 2,000 participants, after tackling challenges in OSINT investigations, counter-disinformation, image analysis, and technical cybersecurity. This event strengthened my skills in analytical thinking and cyber defense, while giving me concrete insight into the strategic challenges of modern information warfare.",
+            tags: [
+                "CTF",
+                "Cybersecurity",
+                "OSINT",
+                "COMCYBER",
+                "Capture The Flag",
+                "Orion 2026",
+            ],
+            link: "https://www.defense.gouv.fr/air/actualites/orion-jeunesse-2026-loperation-bellatrix-met-au-defi-jeunes",
+            status: "new",
+        },
+        {
             title: "CCNA1 Certification Passage",
             description:
                 "Successful completion of the Cisco CCNA 1 – Introduction to Networks module, covering foundational networking concepts (network architectures, protocols, IPv4/IPv6 addressing, Ethernet, switching) and basic configuration/troubleshooting of routers and switches under Cisco IOS.",
