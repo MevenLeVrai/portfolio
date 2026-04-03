@@ -6,12 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="e570521f-6ee4-4930-ab3f-fbf040e71939" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SendEmail.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SendEmail.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/portfolio.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/portfolio.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "i18n",
     "js.debugger.nextJs.config.created.client": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
@@ -40,7 +51,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "npm.npm dev.executor": "Debug",
+    "npm.npm dev.executor": "Run",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "E:\\portfolio\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -48,10 +59,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\portfolio\public\signature" />
-      <recent name="E:\portfolio\public" />
       <recent name="E:\portfolio\src\app" />
-      <recent name="E:\portfolio\src\app\skills" />
+      <recent name="E:\portfolio\src\app\[locale]" />
+      <recent name="E:\portfolio\src\app\[locale]\skills" />
+      <recent name="E:\portfolio\src\app\[locale]\projects" />
+      <recent name="E:\portfolio\src\app\[locale]\education" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm dev">
@@ -105,7 +117,8 @@
       <workItem from="1774957661136" duration="1706000" />
       <workItem from="1775042807781" duration="3840000" />
       <workItem from="1775133215868" duration="974000" />
-      <workItem from="1775144689773" duration="611000" />
+      <workItem from="1775144689773" duration="1946000" />
+      <workItem from="1775205376897" duration="5540000" />
     </task>
     <servers />
   </component>

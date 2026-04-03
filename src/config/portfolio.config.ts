@@ -95,7 +95,7 @@ export const portfolioConfig = {
         ],
 
         certification: [
-            {name: "CCNA1", icon: "ccna-introduction-to-networks.png"}
+            {name: "CCNA1", icon: "/ccna-introduction-to-networks.png"}
         ],
 
         // Langages de programmation / Scripting

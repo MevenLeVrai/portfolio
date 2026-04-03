@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education"
+  },
+  "home": {
+    "greeting": "Hi, I'm",
+    "name": "Meven Desbois",
+    "role": "Systems, Networks, Cloud & Cybersecurity Student",
+    "school": "Sup de Vinci Nantes — B2",
+    "cta_projects": "View my projects",
+    "cta_contact": "Contact me",
+    "looking_for": "Looking for a work-study contract for 2026"
+  },
+  "about": {
+    "title": "About",
+    "description": "Passionate about cybersecurity and infrastructure, I actively participate in CTF competitions and build technical projects around networking, cloud, and offensive security.",
+    "location": "Nantes, France",
+    "languages": "Languages",
+    "french": "French",
+    "english": "English"
+  },
+  "projects": {
+    "title": "My Projects",
+    "status_live": "Live",
+    "status_wip": "In progress",
+    "status_done": "Done",
+    "view_code": "View code",
+    "view_demo": "View site"
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "security": "Cybersecurity",
+      "network": "Networking",
+      "cloud": "Cloud & DevOps",
+      "dev": "Development",
+      "os": "Systems"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "certifications": "Certifications",
+    "current": "In progress"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "made_with": "Made with"
+  }
+}
