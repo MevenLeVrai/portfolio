@@ -17,6 +17,12 @@
   },
   "about": {
     "title": "À propos",
+    "badge": "À propos de moi",
+    "basedIn": "Basé en",
+    "languages": "Langues",
+    "nationality": "Nationalité",
+    "gender": "Genre",
+    "hobbies": "Loisirs",
     "description": "Passionné de cybersécurité et d'infrastructure, je participe activement à des CTF et développe des projets techniques autour des réseaux, du cloud et de la sécurité offensive.",
     "location": "Nantes, France",
     "languages": "Langues",
@@ -32,14 +38,15 @@
     "view_demo": "Voir le site"
   },
   "skills": {
-    "title": "Compétences",
-    "categories": {
-      "security": "Cybersécurité",
-      "network": "Réseaux",
-      "cloud": "Cloud & DevOps",
-      "dev": "Développement",
-      "os": "Systèmes"
-    }
+    "badge": "Mes Compétences",
+    "heading": "Mon Expérience Technique.",
+    "certifications": "Certifications",
+    "programming": "Langages de Programmation / Scripting",
+    "sysadmin": "Systèmes & Virtualisation",
+    "devops": "DevOps & Cloud",
+    "monitoring": "Monitoring",
+    "cybersecurity": "Cybersécurité & Pentest",
+    "productivity": "Productivité & Writeup"
   },
   "education": {
     "title": "Formation",

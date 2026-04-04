@@ -3,8 +3,17 @@ import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Circle, Globe, Heart, Languages, UserCircle2 } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
+import { useTranslations } from "next-intl";
 
-const AboutCards = () => {
+type ContentType = typeof portfolioConfig.content["fr"];
+
+type AboutCardsProps = {
+    content: ContentType;
+};
+
+const AboutCards = ({ content }: AboutCardsProps) => {
+    const t = useTranslations("about");
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 100 }}
@@ -17,11 +26,11 @@ const AboutCards = () => {
             <Card className="w-full h-full flex flex-col hover:shadow-lg transition-all duration-300 border-2">
                 <CardHeader className="pb-2">
                     <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
-                        <Languages className="h-6 w-6" /> Language
+                        <Languages className="h-6 w-6" /> {t("languages")}
                     </CardTitle>
                 </CardHeader>
                 <CardContent className="flex flex-col gap-2">
-                    {portfolioConfig.about.personalInfo.language.map((lang: string, i: number) => (
+                    {content.about.personalInfo.language.map((lang: string, i: number) => (
                         <div key={i} className="flex items-center gap-2 text-xl text-primary">
                             <Circle className="h-3 w-3" /> {lang}
                         </div>
@@ -33,12 +42,12 @@ const AboutCards = () => {
             <Card className="w-full h-full flex flex-col hover:shadow-lg transition-all duration-300 border-2">
                 <CardHeader className="pb-2">
                     <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
-                        <Globe className="h-6 w-6" /> Nationality
+                        <Globe className="h-6 w-6" /> {t("nationality")}
                     </CardTitle>
                 </CardHeader>
                 <CardContent className="flex flex-col gap-2">
                     <div className="flex items-center gap-2 text-xl text-primary">
-                        <Circle className="h-3 w-3" /> {portfolioConfig.about.personalInfo.nationality}
+                        <Circle className="h-3 w-3" /> {content.about.personalInfo.nationality}
                     </div>
                 </CardContent>
             </Card>
@@ -47,12 +56,12 @@ const AboutCards = () => {
             <Card className="w-full h-full flex flex-col hover:shadow-lg transition-all duration-300 border-2">
                 <CardHeader className="pb-2">
                     <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
-                        <UserCircle2 className="h-6 w-6" /> Gender
+                        <UserCircle2 className="h-6 w-6" /> {t("gender")}
                     </CardTitle>
                 </CardHeader>
                 <CardContent className="flex flex-col gap-2">
                     <div className="flex items-center gap-2 text-xl text-primary">
-                        <Circle className="h-3 w-3" /> {portfolioConfig.about.personalInfo.gender}
+                        <Circle className="h-3 w-3" /> {content.about.personalInfo.gender}
                     </div>
                 </CardContent>
             </Card>
@@ -64,12 +73,12 @@ const AboutCards = () => {
             >
                 <CardHeader className="pb-2">
                     <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
-                        <Heart className="h-6 w-6" /> Hobbies
+                        <Heart className="h-6 w-6" /> {t("hobbies")}
                     </CardTitle>
                 </CardHeader>
                 <CardContent>
                     <div className="flex flex-row flex-wrap gap-x-12 gap-y-2">
-                        {portfolioConfig.about.hobbies.map((hobby: string, i: number) => (
+                        {content.about.hobbies.map((hobby: string, i: number) => (
                             <div key={i} className="flex items-center gap-2 text-xl text-primary whitespace-nowrap">
                                 <Circle className="h-3 w-3 shrink-0" /> {hobby}
                             </div>
@@ -77,7 +86,6 @@ const AboutCards = () => {
                     </div>
                 </CardContent>
             </Card>
-
         </motion.div>
     );
 };

@@ -17,6 +17,12 @@
   },
   "about": {
     "title": "About",
+    "badge": "About me",
+    "basedIn": "Based in",
+    "languages": "Languages",
+    "nationality": "Nationality",
+    "gender": "Gender",
+    "hobbies": "Hobbies",
     "description": "Passionate about cybersecurity and infrastructure, I actively participate in CTF competitions and build technical projects around networking, cloud, and offensive security.",
     "location": "Nantes, France",
     "languages": "Languages",
@@ -32,14 +38,15 @@
     "view_demo": "View site"
   },
   "skills": {
-    "title": "Skills",
-    "categories": {
-      "security": "Cybersecurity",
-      "network": "Networking",
-      "cloud": "Cloud & DevOps",
-      "dev": "Development",
-      "os": "Systems"
-    }
+    "badge": "My Skills",
+    "heading": "My Technical Experience / Skills.",
+    "certifications": "Certifications",
+    "programming": "Programming Languages / Scripting",
+    "sysadmin": "Systems & Virtualization",
+    "devops": "DevOps & Cloud",
+    "monitoring": "Monitoring",
+    "cybersecurity": "Cybersecurity & Pentest",
+    "productivity": "Productivity & Writeup"
   },
   "education": {
     "title": "Education",
