@@ -30,7 +30,9 @@
     "english": "Anglais"
   },
   "projects": {
-    "title": "Mes Projets",
+    "badge": "Projets",
+    "heading": "Mes Projets",
+    "intro": "J'aime transformer des idées en systèmes concrets et fonctionnels. Sur cette page, vous trouverez une sélection de labs et de projets où j'ai travaillé sur les réseaux, l'administration système, l'automatisation et la sécurité. Chaque projet est une opportunité d'expérimenter, de casser des choses, de les réparer et de documenter ce que j'ai appris.",
     "status_live": "En ligne",
     "status_wip": "En cours",
     "status_done": "Terminé",
@@ -51,8 +53,10 @@
   "education": {
     "title": "Formation",
     "certifications": "Certifications",
-    "current": "En cours"
-  },
+    "current": "En cours",
+    "badge": "Formation",
+    "heading": "Mon Parcours"
+    },
   "footer": {
     "rights": "Tous droits réservés",
     "made_with": "Fait avec"

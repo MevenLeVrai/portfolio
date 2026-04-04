@@ -30,7 +30,9 @@
     "english": "English"
   },
   "projects": {
-    "title": "My Projects",
+    "badge": "Projects",
+    "heading": "My Projects",
+    "intro": "I like to turn ideas into real, running systems. On this page, you'll find a selection of labs and projects where I've worked on networking, system administration, automation and security. Each project is an opportunity for me to experiment, break things, fix them, and document what I've learned along the way.",
     "status_live": "Live",
     "status_wip": "In progress",
     "status_done": "Done",
@@ -51,7 +53,9 @@
   "education": {
     "title": "Education",
     "certifications": "Certifications",
-    "current": "In progress"
+    "current": "In progress",
+    "badge": "Education",
+    "heading": "My Education"
   },
   "footer": {
     "rights": "All rights reserved",

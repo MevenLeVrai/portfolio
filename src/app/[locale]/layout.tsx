@@ -20,29 +20,36 @@ const rubik = Rubik({
     variable: "--font-rubik",
 });
 
+export function generateStaticParams() {
+    return [
+        { locale: "fr" },
+        { locale: "en" }
+    ];
+}
+
 export const metadata: Metadata = {
     metadataBase: new URL(portfolioConfig.seo.url),
     title: {
         default: portfolioConfig.name,
-        template: `%s - ${portfolioConfig.title}`,
+        template: `%s - ${portfolioConfig.content.fr.title}`,
     },
-    description: portfolioConfig.description,
+    description: portfolioConfig.content.fr.description,
     keywords: portfolioConfig.seo.keywords,
     authors: portfolioConfig.seo.authors,
     creator: portfolioConfig.name,
     openGraph: {
         type: "website",
-        locale: "en_US",
+        locale: "fr_FR",
         url: portfolioConfig.seo.url,
         title: portfolioConfig.name,
-        description: portfolioConfig.description,
+        description: portfolioConfig.content.fr.description,
         images: [`${portfolioConfig.seo.url}/og-image.png`],
         siteName: portfolioConfig.name,
     },
     twitter: {
         card: "summary_large_image",
         title: portfolioConfig.name,
-        description: portfolioConfig.description,
+        description: portfolioConfig.content.fr.description,
         images: [`${portfolioConfig.seo.url}/og-image.png`],
         creator: portfolioConfig.seo.twitterHandle,
     },

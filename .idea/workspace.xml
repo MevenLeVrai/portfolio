@@ -8,14 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/skills/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/skills/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroTexts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroTexts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TextRotator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextRotator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/AboutCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/AboutCards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/ApprenticeshipBadge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/ApprenticeshipBadge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/portfolio.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/portfolio.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/education/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/education/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/projects/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aboutfooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aboutfooter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/animation/DockAnimation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/DockAnimation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,7 @@
       <workItem from="1775144689773" duration="1946000" />
       <workItem from="1775205376897" duration="11445000" />
       <workItem from="1775233338576" duration="1933000" />
-      <workItem from="1775299473335" duration="4093000" />
+      <workItem from="1775299473335" duration="7566000" />
     </task>
     <servers />
   </component>
