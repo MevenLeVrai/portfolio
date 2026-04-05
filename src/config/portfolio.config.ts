@@ -111,7 +111,7 @@ export const portfolioConfig = {
         { title: "Network Infrastructure – TacTic Brother BUILD", link: "", status: undefined },
         { title: "Network Supervision & Operations – TacTic Brother RUN", link: "", status: undefined },
         { title: "Pokerix – Turn-based Multiplayer Battle Game", link: "https://github.com/BaptouK/PokeRixe", status: "in progress" },
-        { title: "CTF & Security Labs", link: "", status: "in progress" },
+        { title: "CTF & Security Labs", link: "https://ctf.mevendesbois.com ", status: "in progress" },
         { title: "ESP32 Wi‑Fi Sniffer – Advanced Packet Analysis", link: "https://github.com/MevenLeVrai/Esp32-Wifi-Sniffer", status: undefined },
         { title: "Self‑Hosted Git Forge – Forgejo on Debian", link: "", status: undefined },
     ],
