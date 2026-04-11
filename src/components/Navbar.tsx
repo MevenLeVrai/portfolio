@@ -1,25 +1,22 @@
 "use client"
 import { cn } from "@/lib/utils";
 import {
-    Briefcase,
     FolderGit2,
     GraduationCap,
     HomeIcon,
     LightbulbIcon,
     Mail,
     User,
-    Languages,
 } from 'lucide-react';
 import { Dock, DockIcon, DockItem, DockLabel } from '@/components/animation/DockAnimation';
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { usePathname, useRouter } from "next/navigation";
-import { useLocale, useTranslations } from "next-intl";
+import { usePathname} from "next/navigation";
+import { useLocale} from "next-intl";
 
 const Navbar = () => {
     const locale = useLocale();
     const pathname = usePathname();
-    const router = useRouter();
 
     const data = [
         {
@@ -63,13 +60,6 @@ const Navbar = () => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-
-    const switchLocale = () => {
-        const newLocale = locale === "fr" ? "en" : "fr";
-        // Remplace le locale dans l'URL actuelle
-        const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
-        router.push(newPath);
-    };
 
     return (
         <div className={`fixed top-5 right-0 left-0 px-0 sm:px-5 m-auto w-full sm:w-fit bg-transparent z-[+9999999] ${scrolling ? "hidden" : "block"}`}>

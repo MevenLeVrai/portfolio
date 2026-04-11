@@ -36,9 +36,6 @@ export default async function Home() {
                 <HeroImage />
                 <ApprenticeshipBadge content={content} />
             </FramerWrapper>
-
-            {/* GITHUB BUTTON  */}
-            <GithubBtn />
         </>
     );
 }
