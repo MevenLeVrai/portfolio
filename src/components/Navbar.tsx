@@ -89,17 +89,6 @@ const Navbar = () => {
                         </DockItem>
                     </Link>
                 ))}
-
-                {/* Switch de langue */}
-                <DockItem
-                    className="aspect-square rounded-full bg-gray-200 dark:bg-neutral-800 cursor-pointer"
-                    onClick={switchLocale}
-                >
-                    <DockLabel>{locale === "fr" ? "English" : "Français"}</DockLabel>
-                    <DockIcon>
-                        <Languages className='h-full w-full' />
-                    </DockIcon>
-                </DockItem>
             </Dock>
         </div>
     );
