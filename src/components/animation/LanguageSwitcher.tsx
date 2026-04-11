@@ -18,7 +18,7 @@ const LanguageSwitcher = () => {
         <button
             onClick={switchLocale}
             aria-label={locale === "fr" ? "Switch to English" : "Passer en Français"}
-            className="fixed bottom-6 right-6 z-[9999] flex items-center gap-2
+            className="fixed bottom-16 right-2 z-[9999] flex items-center gap-2
                 bg-white dark:bg-neutral-800 border border-gray-200 dark:border-neutral-700
                 shadow-lg hover:shadow-xl rounded-full px-4 py-2.5
                 text-sm font-medium text-gray-700 dark:text-gray-200

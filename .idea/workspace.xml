@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e570521f-6ee4-4930-ab3f-fbf040e71939" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/animation/GithubBtn.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/animation/LanguageSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/LanguageSwitcher.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="AISelfReview" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -59,11 +62,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\portfolio\src\components" />
       <recent name="E:\portfolio\src\app" />
       <recent name="E:\portfolio\src\app\[locale]" />
       <recent name="E:\portfolio\src\app\[locale]\skills" />
       <recent name="E:\portfolio\src\app\[locale]\projects" />
-      <recent name="E:\portfolio\src\app\[locale]\education" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm dev">
@@ -124,7 +127,7 @@
       <workItem from="1775316178352" duration="209000" />
       <workItem from="1775399714201" duration="70000" />
       <workItem from="1775407319236" duration="13000" />
-      <workItem from="1775902188890" duration="1057000" />
+      <workItem from="1775902188890" duration="5811000" />
     </task>
     <servers />
   </component>

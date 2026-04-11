@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
-import { Poppins, Rubik } from "next/font/google";
+import type {Metadata} from "next";
+import {Poppins, Rubik} from "next/font/google";
 import "../globals.css";
-import { cn } from "@/lib/utils";
+import {cn} from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import LanguageSwitcher from "@/components/animation/LanguageSwitcher"
 
-import { portfolioConfig } from "@/config/portfolio.config";
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import {portfolioConfig} from "@/config/portfolio.config";
+import {Analytics} from '@vercel/analytics/react';
+import {SpeedInsights} from "@vercel/speed-insights/next";
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages} from 'next-intl/server';
 
 const poppins = Poppins({
     subsets: ["latin"],
@@ -24,8 +24,8 @@ const rubik = Rubik({
 
 export function generateStaticParams() {
     return [
-        { locale: "fr" },
-        { locale: "en" }
+        {locale: "fr"},
+        {locale: "en"}
     ];
 }
 
@@ -67,7 +67,7 @@ export default async function RootLayout({
     children: React.ReactNode;
     params: Promise<{ locale: string }>;
 }) {
-    const { locale } = await params;
+    const {locale} = await params;
     const messages = await getMessages();
 
     return (
@@ -76,17 +76,17 @@ export default async function RootLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
             <main
                 className={cn(
-                    "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-slate-50 bg-[url('/noise.png')] bg-repeat",
-                    { "bg-white": "#E6E7EB" }
+                    "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-16 px-40 max-md:px-4 max-md:pb-16 max-md:pt-4 bg-slate-50 bg-[url('/noise.png')] bg-repeat",
+                    {"bg-white": "#E6E7EB"}
                 )}
             >
-                <Navbar />
+                <Navbar/>
                 {children}
             </main>
-        <LanguageSwitcher/>
+            <LanguageSwitcher/>
         </NextIntlClientProvider>
-        <Analytics />
-        <SpeedInsights />
+        <Analytics/>
+        <SpeedInsights/>
         </body>
         </html>
     );
