@@ -10,39 +10,44 @@ type Props = {
     params: Promise<{ locale: "fr" | "en" }>;
 };
 
-const projectsPage = async ({ params }: Props) => {
+const ProjectsPage = async ({ params }: Props) => {
     const { locale } = await params;
     const t = await getTranslations("projects");
     const content = portfolioConfig.content[locale];
 
-    // Fusion projets (texte traduit) + projectLinks (liens/status)
-    const projects = content.projects.map((project, index) => ({
+    const projectLinksMap = Object.fromEntries(
+        portfolioConfig.projectLinks.map((project) => [project.id, project])
+    );
+
+    const projects = content.projects.map((project) => ({
         ...project,
-        ...portfolioConfig.projectLinks[index],
+        ...(projectLinksMap[project.id] ?? {}),
     }));
 
     return (
-        <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
+        <div className="relative flex h-full w-full flex-col items-start gap-5 overflow-hidden">
             <Badge variant="secondary" className="gap-1.5 py-1">
                 <Layers className="h-4 w-4" />
                 {t("badge")}
             </Badge>
+
             <div className="flex flex-col gap-3">
                 <Heading>{t("heading")}</Heading>
+
                 <FramerWrapper y={0} x={200}>
-                    <p className="font-poppins text-lg w-full text-primary max-sm:text-base">
+                    <p className="w-full font-poppins text-lg text-primary max-sm:text-base">
                         {t("intro")}
                     </p>
                 </FramerWrapper>
             </div>
 
-            <div className="w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
-                {projects.map((val, indx) => (
-                    <ProjectCards key={indx} value={val} num={indx} />
+            <div className="flex w-full flex-row flex-wrap gap-3 max-lg:flex-col">
+                {projects.map((project, index) => (
+                    <ProjectCards key={project.id} value={project} num={index} />
                 ))}
             </div>
         </div>
     );
 };
 
-export default projectsPage;
+export default ProjectsPage;
