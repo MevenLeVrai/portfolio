@@ -378,4 +378,4 @@ export const portfolioConfig = {
             ],
         },
     },
-} as const;
+}
