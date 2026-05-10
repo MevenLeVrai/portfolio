@@ -53,7 +53,6 @@ export const metadata: Metadata = {
         title: portfolioConfig.name,
         description: portfolioConfig.content.fr.description,
         images: [`${portfolioConfig.seo.url}/og-image.png`],
-        creator: portfolioConfig.seo.twitterHandle,
     },
     icons: {
         icon: "/favicon.ico",
